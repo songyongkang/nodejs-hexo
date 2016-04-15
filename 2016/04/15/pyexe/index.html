@@ -10,13 +10,7 @@ py2exe参考文档
 
 首先下载Py2exe
 编写python
-
-print &quot;hello world&quot;
-
-3 编写setup脚本
-from distutils.core import setup
-import py2exe
-setup(conso">
+12345678910111213141516#!/usr/bin/pythonprint &quot;hello world&quot;```    3 编写setup脚本```python#!/usr">
 <meta property="og:type" content="article">
 <meta property="og:title" content="python程序的打包">
 <meta property="og:url" content="http://blog.gzhqd.com/2016/04/15/pyexe/index.html">
@@ -26,14 +20,8 @@ py2exe参考文档
 
 首先下载Py2exe
 编写python
-
-print &quot;hello world&quot;
-
-3 编写setup脚本
-from distutils.core import setup
-import py2exe
-setup(conso">
-<meta property="og:updated_time" content="2016-04-15T02:47:25.297Z">
+12345678910111213141516#!/usr/bin/pythonprint &quot;hello world&quot;```    3 编写setup脚本```python#!/usr">
+<meta property="og:updated_time" content="2016-04-15T02:59:04.332Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="python程序的打包">
 <meta name="twitter:description" content="自己写了一个小脚本，但是想运行它的机器没有安装python，这才真正接触了python打包程序。开始时想用Py2exe,操作比较简单，方便后来人参考。
@@ -41,13 +29,7 @@ py2exe参考文档
 
 首先下载Py2exe
 编写python
-
-print &quot;hello world&quot;
-
-3 编写setup脚本
-from distutils.core import setup
-import py2exe
-setup(conso">
+12345678910111213141516#!/usr/bin/pythonprint &quot;hello world&quot;```    3 编写setup脚本```python#!/usr">
     
 
     
@@ -263,27 +245,18 @@ var _hmt = _hmt || [];
 <p><a href="http://www.py2exe.org/index.cgi/Tutorial" target="_blank" rel="external">py2exe参考文档</a></p>
 <ol>
 <li>首先下载<a href="http://sourceforge.net/projects/py2exe/files/py2exe/0.6.9/" target="_blank" rel="external">Py2exe</a></li>
-<li>编写python</li>
+<li><p>编写python</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#!/usr/bin/python</span></span><br><span class="line"><span class="keyword">print</span> <span class="string">"hello world"</span></span><br><span class="line"></span><br><span class="line">```    </span><br><span class="line"><span class="number">3</span> 编写setup脚本</span><br><span class="line">```python</span><br><span class="line"><span class="comment">#!/usr/bin/python</span></span><br><span class="line"><span class="keyword">from</span> distutils.core <span class="keyword">import</span> setup</span><br><span class="line"><span class="keyword">import</span> py2exe</span><br><span class="line">setup(console=[<span class="string">'hello.py'</span>]</span><br><span class="line"></span><br><span class="line">```   </span><br><span class="line"></span><br><span class="line"><span class="number">4.</span> 打包程序：</span><br><span class="line">```cmd</span><br><span class="line">Python setup py2exe</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>测试打包程序：</p>
+</li>
 </ol>
-<pre><code class="python"><span class="keyword">print</span> <span class="string">"hello world"</span>
-</code></pre>
-<p>3 编写setup脚本</p>
-<pre><code class="python"><span class="keyword">from</span> distutils.core <span class="keyword">import</span> setup
-<span class="keyword">import</span> py2exe
-setup(console=[<span class="string">'hello.py'</span>]
-</code></pre>
-<ol>
-<li>打包程序：</li>
-</ol>
-<p>Python setup py2exe</p>
-<ol>
-<li>测试打包程序：</li>
-</ol>
-<p>C:\Users\dell\Desktop\hello\dist&gt;hello.exe<br>hello world<br>Ok，任务完成。<br>此外，还有一个比较流行的插件就是: pyinstall:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">C:\Users\dell\Desktop\hello\dist&gt;hello.exe</span><br><span class="line">hello world</span><br></pre></td></tr></table></figure>
+<p>证明程序可以正确运行。<br>此外，还有一个比较流行的插件就是: pyinstall:</p>
 <ol>
 <li>下载并解压：<a href="http://www.pyinstaller.org/" target="_blank" rel="external">PyInstaller</a></li>
 <li>去SourceForge 上面下载<a href="http://sourceforge.net/projects/pywin32/?source=directory" target="_blank" rel="external">扩展插件</a></li>
-<li>然后编译Python 源码程序即可：<br>pyinstall.py –console –onefile source.py</li>
+<li>然后编译Python 源码程序即可：<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pyinstall.py --console --onefile source.py</span><br></pre></td></tr></table></figure></li>
 </ol>
 
         
