@@ -15,7 +15,7 @@ py2exe参考文档
 
 编写setup脚本
 
-12345678910#!/usr/bin/pythonfrom distuti">
+1234#!/usr/bin/pythonfrom distutils.core">
 <meta property="og:type" content="article">
 <meta property="og:title" content="python程序的打包">
 <meta property="og:url" content="http://blog.gzhqd.com/2016/04/15/pyexe/index.html">
@@ -30,8 +30,8 @@ py2exe参考文档
 
 编写setup脚本
 
-12345678910#!/usr/bin/pythonfrom distuti">
-<meta property="og:updated_time" content="2016-04-15T09:03:55.315Z">
+1234#!/usr/bin/pythonfrom distutils.core">
+<meta property="og:updated_time" content="2016-04-15T09:20:38.100Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="python程序的打包">
 <meta name="twitter:description" content="自己写了一个小脚本，但是想运行它的机器没有安装python，这才真正接触了python打包程序。开始时想用Py2exe,操作比较简单，方便后来人参考。
@@ -44,7 +44,7 @@ py2exe参考文档
 
 编写setup脚本
 
-12345678910#!/usr/bin/pythonfrom distuti">
+1234#!/usr/bin/pythonfrom distutils.core">
     
 
     
@@ -266,9 +266,13 @@ var _hmt = _hmt || [];
 <ol>
 <li>编写setup脚本</li>
 </ol>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#!/usr/bin/python</span></span><br><span class="line"><span class="keyword">from</span> distutils.core <span class="keyword">import</span> setup</span><br><span class="line"><span class="keyword">import</span> py2exe</span><br><span class="line">setup(console=[<span class="string">'hello.py'</span>]</span><br><span class="line">```   </span><br><span class="line"></span><br><span class="line"><span class="number">4.</span> 打包程序,在命令窗口中键入：</span><br><span class="line"></span><br><span class="line">```Python </span><br><span class="line">setup py2exe</span><br></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#!/usr/bin/python</span></span><br><span class="line"><span class="keyword">from</span> distutils.core <span class="keyword">import</span> setup</span><br><span class="line"><span class="keyword">import</span> py2exe</span><br><span class="line">setup(console=[<span class="string">'hello.py'</span>]</span><br></pre></td></tr></table></figure>
 <ol>
-<li>测试打包程序：<figure class="highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="function">C:\<span class="title">Users</span>\<span class="title">dell</span>\<span class="title">Desktop</span>\<span class="title">hello</span>\<span class="title">dist</span>&gt;<span class="title">hello.exe</span></span><br><span class="line"><span class="title">hello</span> <span class="title">world</span></span></span><br></pre></td></tr></table></figure>
+<li>打包程序,在命令窗口中键入</li>
+</ol>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">setup py2exe</span><br></pre></td></tr></table></figure>
+<ol>
+<li>测试打包程序<figure class="highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="function">C:\<span class="title">Users</span>\<span class="title">dell</span>\<span class="title">Desktop</span>\<span class="title">hello</span>\<span class="title">dist</span>&gt;<span class="title">hello.exe</span></span><br><span class="line"><span class="title">hello</span> <span class="title">world</span></span></span><br></pre></td></tr></table></figure>
 </li>
 </ol>
 <p>证明程序可以正确运行。<br>此外，还有一个比较流行的插件就是: pyinstall:</p>
