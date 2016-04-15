@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://blog.gzhqd.com/about/index.html</loc>
+    
+    <lastmod>2016-04-15T13:20:55.657Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://blog.gzhqd.com/2016/04/15/pyexe/</loc>
     
     <lastmod>2016-04-15T09:27:47.474Z</lastmod>
@@ -19,13 +26,6 @@
     <loc>http://blog.gzhqd.com/2016/04/15/py1/</loc>
     
     <lastmod>2016-04-15T02:47:15.408Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://blog.gzhqd.com/about/index.html</loc>
-    
-    <lastmod>2016-03-29T06:06:22.726Z</lastmod>
     
   </url>
   
