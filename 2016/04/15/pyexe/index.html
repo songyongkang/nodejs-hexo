@@ -31,7 +31,7 @@ py2exe参考文档
 编写setup脚本
 
 1234#!/usr/bin/pythonfrom distutils.core">
-<meta property="og:updated_time" content="2016-04-15T09:20:38.100Z">
+<meta property="og:updated_time" content="2016-04-15T09:27:47.474Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="python程序的打包">
 <meta name="twitter:description" content="自己写了一个小脚本，但是想运行它的机器没有安装python，这才真正接触了python打包程序。开始时想用Py2exe,操作比较简单，方便后来人参考。
@@ -258,23 +258,23 @@ var _hmt = _hmt || [];
             
             <p>自己写了一个小脚本，但是想运行它的机器没有安装python，这才真正接触了python打包程序。<br>开始时想用Py2exe,操作比较简单，方便后来人参考。</p>
 <p><a href="http://www.py2exe.org/index.cgi/Tutorial" target="_blank" rel="external">py2exe参考文档</a></p>
-<ol>
+<ul>
 <li>首先下载<a href="http://sourceforge.net/projects/py2exe/files/py2exe/0.6.9/" target="_blank" rel="external">Py2exe</a></li>
 <li>编写python</li>
-</ol>
+</ul>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#!/usr/bin/python</span></span><br><span class="line"><span class="keyword">print</span> <span class="string">"hello world"</span></span><br></pre></td></tr></table></figure>
-<ol>
+<ul>
 <li>编写setup脚本</li>
-</ol>
+</ul>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#!/usr/bin/python</span></span><br><span class="line"><span class="keyword">from</span> distutils.core <span class="keyword">import</span> setup</span><br><span class="line"><span class="keyword">import</span> py2exe</span><br><span class="line">setup(console=[<span class="string">'hello.py'</span>]</span><br></pre></td></tr></table></figure>
-<ol>
+<ul>
 <li>打包程序,在命令窗口中键入</li>
-</ol>
+</ul>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">setup py2exe</span><br></pre></td></tr></table></figure>
-<ol>
+<ul>
 <li>测试打包程序<figure class="highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="function">C:\<span class="title">Users</span>\<span class="title">dell</span>\<span class="title">Desktop</span>\<span class="title">hello</span>\<span class="title">dist</span>&gt;<span class="title">hello.exe</span></span><br><span class="line"><span class="title">hello</span> <span class="title">world</span></span></span><br></pre></td></tr></table></figure>
 </li>
-</ol>
+</ul>
 <p>证明程序可以正确运行。<br>此外，还有一个比较流行的插件就是: pyinstall:</p>
 <ol>
 <li>下载并解压：<a href="http://www.pyinstaller.org/" target="_blank" rel="external">PyInstaller</a></li>
@@ -337,19 +337,10 @@ window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMin
         
 <nav id="article-nav">
     
-        <a href="/2016/04/15/py1/" id="article-nav-newer" class="article-nav-link-wrap">
-            <strong class="article-nav-caption">上一篇</strong>
-            <div class="article-nav-title">
-                
-                    python的GUI编程(tkinter)
-                
-            </div>
-        </a>
     
-    
-        <a href="/2016/04/13/sublime/" id="article-nav-older" class="article-nav-link-wrap">
+        <a href="/2016/04/15/py1/" id="article-nav-older" class="article-nav-link-wrap">
             <strong class="article-nav-caption">下一篇</strong>
-            <div class="article-nav-title">Sublime Text 3设为Markdown编辑器</div>
+            <div class="article-nav-title">python的GUI编程(tkinter)</div>
         </a>
     
 </nav>
@@ -381,24 +372,6 @@ window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMin
                     <li>
                         
                         <div class="item-thumbnail">
-                            <a href="/2016/04/15/py1/" class="thumbnail">
-    
-    
-        <span style="background-image:url(/images/gui.png)" alt="python的GUI编程(tkinter)" class="thumbnail-image"></span>
-    
-</a>
-                        </div>
-                        
-                        <div class="item-inner">
-                            <p class="item-category"><a class="article-category-link" href="/categories/工具/">工具</a></p>
-                            <p class="item-title"><a href="/2016/04/15/py1/" class="title">python的GUI编程(tkinter)</a></p>
-                            <p class="item-date"><time datetime="2016-04-15T03:20:54.000Z" itemprop="datePublished">2016-04-15</time></p>
-                        </div>
-                    </li>
-                
-                    <li>
-                        
-                        <div class="item-thumbnail">
                             <a href="/2016/04/15/pyexe/" class="thumbnail">
     
     
@@ -410,6 +383,24 @@ window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMin
                         <div class="item-inner">
                             <p class="item-category"><a class="article-category-link" href="/categories/工具/">工具</a></p>
                             <p class="item-title"><a href="/2016/04/15/pyexe/" class="title">python程序的打包</a></p>
+                            <p class="item-date"><time datetime="2016-04-15T03:20:54.000Z" itemprop="datePublished">2016-04-15</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/2016/04/15/py1/" class="thumbnail">
+    
+    
+        <span style="background-image:url(/images/gui.png)" alt="python的GUI编程(tkinter)" class="thumbnail-image"></span>
+    
+</a>
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"><a class="article-category-link" href="/categories/工具/">工具</a></p>
+                            <p class="item-title"><a href="/2016/04/15/py1/" class="title">python的GUI编程(tkinter)</a></p>
                             <p class="item-date"><time datetime="2016-04-15T03:20:54.000Z" itemprop="datePublished">2016-04-15</time></p>
                         </div>
                     </li>
