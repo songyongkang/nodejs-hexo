@@ -9,12 +9,13 @@
 py2exe参考文档
 
 首先下载Py2exe
-编写python12#!/usr/bin/pythonprint &quot;hello world&quot;
+编写python
 
-
+12#!/usr/bin/pythonprint &quot;hello world&quot;
 
 编写setup脚本
-12345678#!/usr/bin/pythonfrom distutils.c">
+
+12345678910#!/usr/bin/pythonfrom distuti">
 <meta property="og:type" content="article">
 <meta property="og:title" content="python程序的打包">
 <meta property="og:url" content="http://blog.gzhqd.com/2016/04/15/pyexe/index.html">
@@ -23,25 +24,27 @@ py2exe参考文档
 py2exe参考文档
 
 首先下载Py2exe
-编写python12#!/usr/bin/pythonprint &quot;hello world&quot;
+编写python
 
-
+12#!/usr/bin/pythonprint &quot;hello world&quot;
 
 编写setup脚本
-12345678#!/usr/bin/pythonfrom distutils.c">
-<meta property="og:updated_time" content="2016-04-15T08:58:28.101Z">
+
+12345678910#!/usr/bin/pythonfrom distuti">
+<meta property="og:updated_time" content="2016-04-15T09:01:55.156Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="python程序的打包">
 <meta name="twitter:description" content="自己写了一个小脚本，但是想运行它的机器没有安装python，这才真正接触了python打包程序。开始时想用Py2exe,操作比较简单，方便后来人参考。
 py2exe参考文档
 
 首先下载Py2exe
-编写python12#!/usr/bin/pythonprint &quot;hello world&quot;
+编写python
 
-
+12#!/usr/bin/pythonprint &quot;hello world&quot;
 
 编写setup脚本
-12345678#!/usr/bin/pythonfrom distutils.c">
+
+12345678910#!/usr/bin/pythonfrom distuti">
     
 
     
@@ -257,15 +260,15 @@ var _hmt = _hmt || [];
 <p><a href="http://www.py2exe.org/index.cgi/Tutorial" target="_blank" rel="external">py2exe参考文档</a></p>
 <ol>
 <li>首先下载<a href="http://sourceforge.net/projects/py2exe/files/py2exe/0.6.9/" target="_blank" rel="external">Py2exe</a></li>
-<li>编写python<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#!/usr/bin/python</span></span><br><span class="line"><span class="keyword">print</span> <span class="string">"hello world"</span></span><br></pre></td></tr></table></figure>
-</li>
+<li>编写python</li>
 </ol>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#!/usr/bin/python</span></span><br><span class="line"><span class="keyword">print</span> <span class="string">"hello world"</span></span><br></pre></td></tr></table></figure>
 <ol>
-<li><p>编写setup脚本</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#!/usr/bin/python</span></span><br><span class="line"><span class="keyword">from</span> distutils.core <span class="keyword">import</span> setup</span><br><span class="line"><span class="keyword">import</span> py2exe</span><br><span class="line">setup(console=[<span class="string">'hello.py'</span>]</span><br><span class="line">```   </span><br><span class="line"></span><br><span class="line"><span class="number">4.</span> 打包程序,在命令窗口中键入：</span><br><span class="line">```Python setup py2exe</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>测试打包程序：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hello world</span><br></pre></td></tr></table></figure>
+<li>编写setup脚本</li>
+</ol>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#!/usr/bin/python</span></span><br><span class="line"><span class="keyword">from</span> distutils.core <span class="keyword">import</span> setup</span><br><span class="line"><span class="keyword">import</span> py2exe</span><br><span class="line">setup(console=[<span class="string">'hello.py'</span>]</span><br><span class="line">```   </span><br><span class="line"></span><br><span class="line"><span class="number">4.</span> 打包程序,在命令窗口中键入：</span><br><span class="line"></span><br><span class="line">```Python </span><br><span class="line">setup py2exe</span><br></pre></td></tr></table></figure>
+<ol>
+<li>测试打包程序：<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">C:\Users\dell\Desktop\hello\dist&gt;hello.exe</span><br><span class="line">hello world</span><br></pre></td></tr></table></figure>
 </li>
 </ol>
 <p>证明程序可以正确运行。<br>此外，还有一个比较流行的插件就是: pyinstall:</p>
