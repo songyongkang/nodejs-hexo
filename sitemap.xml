@@ -2,6 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://blog.gzhqd.com/2016/05/30/xusong/</loc>
+    
+    <lastmod>2016-05-30T11:57:42.267Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://blog.gzhqd.com/pages/index.html</loc>
+    
+    <lastmod>2016-05-30T11:06:31.354Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://blog.gzhqd.com/2016/04/15/pyexe/</loc>
+    
+    <lastmod>2016-04-21T13:14:26.002Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://blog.gzhqd.com/about/index.html</loc>
     
     <lastmod>2016-04-16T10:16:27.912Z</lastmod>
@@ -12,13 +33,6 @@
     <loc>http://blog.gzhqd.com/music.html</loc>
     
     <lastmod>2016-04-16T09:48:41.148Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://blog.gzhqd.com/2016/04/15/pyexe/</loc>
-    
-    <lastmod>2016-04-15T09:27:47.474Z</lastmod>
     
   </url>
   
@@ -40,13 +54,6 @@
     <loc>http://blog.gzhqd.com/2016/03/10/first/</loc>
     
     <lastmod>2016-03-29T06:02:39.685Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://blog.gzhqd.com/pages/index.html</loc>
-    
-    <lastmod>2016-03-26T14:28:40.471Z</lastmod>
     
   </url>
   
