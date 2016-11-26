@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://blog.gzhqd.com/music.html</loc>
+    
+    <lastmod>2016-11-26T00:10:14.435Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://blog.gzhqd.com/2016/11/10/alun/</loc>
     
     <lastmod>2016-11-25T23:48:30.939Z</lastmod>
@@ -33,13 +40,6 @@
     <loc>http://blog.gzhqd.com/about/index.html</loc>
     
     <lastmod>2016-04-16T10:16:27.912Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://blog.gzhqd.com/music.html</loc>
-    
-    <lastmod>2016-04-16T09:48:41.148Z</lastmod>
     
   </url>
   
